@@ -1,0 +1,17 @@
+{
+  "name": "capstone_backend",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": "buggydev <mrtyreeharper@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  }
+}
